@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #0c0a97;
+    margin-bottom: 20px;
+}
+
+.contador {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.row > [class*="col"] {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+#contador {
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spiderman {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.votar {
+    width: 100%;
+    min-height: 48px;
+    background-color: #e62d2d;
+    color: #ebdede;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .row > [class*="col"] {
+        flex-basis: 100%;
+    }
+}
