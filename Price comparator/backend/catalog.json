@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "kingston-fury-16",
+        "name" : "Kingston Fury 16GB DDR5 6000MHz",
+        "category" : "RAM",
+        "offers" : [
+            {"store" : "Amazon", "price" : 59.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 62.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 64.99, "url" : "https://www.bestbuy.com/site/kingston-fury-16gb-ddr5-6000mhz/6501234.p?skuId=6501234"}
+        ]
+    },
+    {
+        "id" : "msi-rtx-4060",
+        "name" : "MSI GeForce RTX 4060 Gaming X 8GB",
+        "category" : "GPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 329.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 349.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 359.99, "url" : "https://www.bestbuy.com/site/msi-geforce-rtx-4060-gaming-x-8gb/6501234.p?skuId=6501234"}
+        ]
+    },
+    {
+        "id" : "amd-ryzen-7-5800x",
+        "name" : "AMD Ryzen 7 5800X 8-Core Processor",
+        "category" : "CPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 299.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 319.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 329.99, "url" : "https://www.bestbuy.com/site/amd-ryzen-7-5800x-8-core-processor/6501234.p?skuId=6501234"}
+        ]
+    }
+]
