@@ -1,10 +1,24 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import ProductCard from "./components/ProductCard.jsx";
+
+const categories = ["RAM", "GPU", "CPU"];
 
 export default function App() {
+  const { t, i18n } = useTranslation();
+
   const [products, setProducts] = useState([]);
   const [status, setStatus] = useState("loading");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
+
+  const language = i18n.resolvedLanguage || "es";
+  const locale = language === "en" ? "en-US" : "es-CL";
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+    document.title = t("appName");
+  }, [language, t]);
 
   useEffect(() => {
     async function loadProducts() {
@@ -37,71 +51,86 @@ export default function App() {
   });
 
   return (
-    <main>
-      <h1>Pricewise</h1>
+    <main className="page">
+      <header className="page-header">
+        <div>
+          <h1>{t("appName")}</h1>
+          <p>{t("description")}</p>
+        </div>
 
-      {status === "loading" && <p>Cargando catálogo…</p>}
-      {status === "error" && <p>No se pudo cargar el catálogo.</p>}
+        <div className="language-control">
+          <label htmlFor="language">{t("language")}</label>
+
+          <select
+            id="language"
+            value={language}
+            onChange={(event) => i18n.changeLanguage(event.target.value)}
+          >
+            <option value="es">{t("spanish")}</option>
+            <option value="en">{t("english")}</option>
+          </select>
+        </div>
+      </header>
+
+      <p className="sample-notice">{t("sampleData")}</p>
+
+      <div role="status">
+        {status === "loading" && <p>{t("loading")}</p>}
+      </div>
+
+      {status === "error" && (
+        <p className="error-message" role="alert">
+          {t("error")}
+        </p>
+      )}
 
       {status === "ready" && (
         <>
-          <div>
-            <label htmlFor="product-search">Buscar por nombre</label>
-            <input
-              id="product-search"
-              type="search"
-              value={searchQuery}
-              onChange={(event) => setSearchQuery(event.target.value)}
-            />
+          <div className="filters">
+            <div className="field">
+              <label htmlFor="product-search">{t("search")}</label>
+
+              <input
+                id="product-search"
+                type="search"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+              />
+            </div>
+
+            <div className="field">
+              <label htmlFor="product-category">{t("category")}</label>
+
+              <select
+                id="product-category"
+                value={selectedCategory}
+                onChange={(event) => setSelectedCategory(event.target.value)}
+              >
+                <option value="all">{t("all")}</option>
+
+                {categories.map((category) => (
+                  <option key={category} value={category}>
+                    {t(`categories.${category}`)}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
-          <div>
-            <label htmlFor="product-category">Categoría</label>
-            <select
-              id="product-category"
-              value={selectedCategory}
-              onChange={(event) => setSelectedCategory(event.target.value)}
-            >
-              <option value="all">Todas</option>
-              <option value="RAM">RAM</option>
-              <option value="GPU">Tarjetas gráficas</option>
-              <option value="CPU">Procesadores</option>
-            </select>
+          <p role="status">
+            {t("results")}{" "}
+            <strong>
+              {new Intl.NumberFormat(locale).format(filteredProducts.length)}
+            </strong>
+          </p>
+
+          {filteredProducts.length === 0 && <p>{t("noProducts")}</p>}
+
+          <div className="product-grid">
+            {filteredProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
           </div>
-
-          {filteredProducts.length === 0 && (
-            <p>No hay productos que coincidan con los filtros.</p>
-          )}
-
-          <section>
-            {filteredProducts.map((product) => {
-              const sortedOffers = [...product.offers].sort(
-                (firstOffer, secondOffer) => firstOffer.price - secondOffer.price,
-              );
-              const lowestPrice = sortedOffers[0]?.price;
-
-              return (
-                <article key={product.id}>
-                  <h2>{product.name}</h2>
-
-                  {sortedOffers.length === 0 ? (
-                    <p>No hay ofertas disponibles.</p>
-                  ) : (
-                    <ul>
-                      {sortedOffers.map((offer) => (
-                        <li key={offer.store}>
-                          {offer.store} — {offer.price.toFixed(2)}
-                          {offer.price === lowestPrice && (
-                            <strong> · Menor precio</strong>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </article>
-              );
-            })}
-          </section>
         </>
       )}
     </main>
