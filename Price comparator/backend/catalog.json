@@ -4,9 +4,9 @@
         "name" : "Kingston Fury 16GB DDR5 6000MHz",
         "category" : "RAM",
         "offers" : [
-            {"store" : "Amazon", "price" : 59.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
-            {"store" : "Newegg", "price" : 62.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
-            {"store" : "Best Buy", "price" : 64.99, "url" : "https://www.bestbuy.com/site/kingston-fury-16gb-ddr5-6000mhz/6501234.p?skuId=6501234"}
+            {"store" : "pc Factory", "price" : 264.990, "url" : "https://www.https://www.pcfactory.cl/producto/56211-kingston-fury-memoria-ram-notebook-ddr5-16gb-6000-mhz-sodimm?gad_source=1&gad_campaignid=22507392461&gbraid=0AAAAADGXTdXTa22psxPVfQJ0K5AS67BBl&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrD17oPycz5UA-6AoZsZTtt4yXN4-FWPLfiSq0YRi5ESkDEr18nEr40aAmUKEALw_wcB"},
+            {"store" : "Mercado libre", "price" : 309.990, "url" : "https://www.google.com/aclk?sa=L&ai=DChsSEwjPmOiQzPuXAxXXWkgAHfdGIRQYACICCAEQBRoCY2U&co=1&ase=2&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrBQ8TY3o2ssBn-HlJDaoMVhZ8Fn1ob7niGt8vy9eFpXsHUzmrBCJ4waAjkCEALw_wcB&cid=CAAS3QHkaKpa8w_mVFInxwOD9msqZAf4Lq2Y5MC_0P5TO3bcnW7C9X756XI1YbuOV5bm4LDa6R5BTN_Qizkypo0QNxzukXPHmxAXYYBPSDXrC68AxM4J8ogIYLcGGvbi8Er_BQahUVv0oh2-D_UvKfzTDBdMlRmIGZTpm0psac-On3wqNULr-aippXsdO5on_xLmiKul-qdB1G9cqYe0S3ns8VKUfx6vSV-eS8F8tGRcbXtmvBZE3VgRzjPqmxd_Nkd-XkMG71o-OSqr6T3XpWhEDhOWx0S7SAIeiiPyKr03QQ&cce=2&category=acrcp_v1_32&sig=AOD64_3v4ihpiiPs4XblpBbX9jnOVMQh5g&ctype=5&q=&nis=4&ved=2ahUKEwilmuGQzPuXAxV6kJUCHa-aLEMQ5bgDKAB6BAgIEBU&adurl="},
+            {"store" : "Falabella", "price" : 309.990, "url" : "https://www.https://www.falabella.com/falabella-cl/product/154968549/sodimm-16-gb-ddr5-6000-mt-s-kingston-fury-impact/154968550?kid=shopp478fc&gclsrc=aw.ds&gad_source=4&gad_campaignid=24289483352&gbraid=0AAAAADnr5ngr2GJGdW5RtVbG5m5Lyn2JH&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrA6ksGP-_jtC77sbaEyHsUmomWV9AFG4oAF0KHbFpxiK59gntYQQEUaAosNEALw_wcB"}
         ]
     },
     {
@@ -14,9 +14,9 @@
         "name" : "MSI GeForce RTX 4060 Gaming X 8GB",
         "category" : "GPU",
         "offers" : [
-            {"store" : "Amazon", "price" : 329.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
-            {"store" : "Newegg", "price" : 349.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
-            {"store" : "Best Buy", "price" : 359.99, "url" : "https://www.bestbuy.com/site/msi-geforce-rtx-4060-gaming-x-8gb/6501234.p?skuId=6501234"}
+            {"store" : "Paris", "price" : 459.990, "url" : "https://www.paris.cl/tarjeta-de-video-msi-rtx-4060-ventus-2x-black-8g-oc-MKGQWNZPET.html"},
+            {"store" : "Desertcart", "price" : 690.137, "url" : "https://www.desertcart.ae/products/756924330-gaming-geforce-rtx-4060-8gb-gdrr6-128-bit-hdmi-dp"},
+            {"store" : "Mercado libre", "price" : 1202.428, "url" : "https://www.mercadolibre.cl/tarjeta-grafica-msi-geforce-rtx-4060-ti-ventus-2x-black-8g-o/p/MLC2085347970?matt_tool=16931662&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMLC2875739920&from=gshop"}
         ]
     },
     {
@@ -27,6 +27,96 @@
             {"store" : "Amazon", "price" : 299.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
             {"store" : "Newegg", "price" : 319.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
             {"store" : "Best Buy", "price" : 329.99, "url" : "https://www.bestbuy.com/site/amd-ryzen-7-5800x-8-core-processor/6501234.p?skuId=6501234"}
+        ]
+    },
+    {
+        "id" : "corsair-ram-vengeance-lpx-ddr4",
+        "name" : "Corsair Memoria Ram Vengeance LPX DDR4",
+        "category" : "RAM",
+        "offers" : [
+            {"store" : "Amazon", "price" : 79.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 84.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 89.99, "url" : "https://www.bestbuy.com/site/corsair-memoria-ram-vengeance-lpx-ddr4/6501234.p?skuId=6501234"}
+        ]
+    },
+    {
+        "id" : "trident-z-ddr4",
+        "name" : "G.Skill Trident Z RGB 16GB DDR4",
+        "category" : "RAM",
+        "offers" : [
+            {"store" : "Amazon", "price" : 99.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 104.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 109.99, "url" : "https://www.bestbuy.com/site/g-skill-trident-z-rgb-16gb-ddr4/6501234.p?skuId=6501234"}
+        ]   
+    },
+    {
+        "id" : "crucial-8gb-ddr5-5600",
+        "name" : "Crucial 8GB DDR5 5600 SODIMM",
+        "category" : "RAM",
+        "offers" : [
+            {"store" : "Amazon", "price" : 49.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 54.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 59.99, "url" : "https://www.bestbuy.com/site/crucial-8gb-ddr5-5600-sodimm/6501234.p?skuId=6501234"}
+        ]   
+    },
+    {
+        "id" : "geforce-rtx-5070",
+        "name" : "NVIDIA GeForce RTX 5070 16GB",
+        "category" : "GPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 699.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 749.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 799.99, "url" : "https://www.bestbuy.com/site/nvidia-geforce-rtx-5070-16gb/6501234.p?skuId=6501234"}
+        ]   
+    },
+    {
+        "id" : "intel-core-i9-13900k",
+        "name" : "Intel Core i9-13900K 24-Core Processor",
+        "category" : "CPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 599.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 649.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 699.99, "url" : "https://www.bestbuy.com/site/intel-core-i9-13900k-24-core-processor/6501234.p?skuId=6501234"}
+        ]   
+    },
+    {
+        "id" : "amd-radeon-rx-9070-xt",
+        "name" : "AMD Radeon RX 9070 XT 16GB",
+        "category" : "GPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 699.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 749.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 799.99, "url" : "https://www.bestbuy.com/site/amd-radeon-rx-9070-xt-16gb/6501234.p?skuId=6501234"}
+        ]   
+    },
+    {
+        "id" : "intel-arc-b580",
+        "name" : "Intel Arc B580 8GB",
+        "category" : "GPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 299.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 349.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 399.99, "url" : "https://www.bestbuy.com/site/intel-arc-b580-8gb/6501234.p?skuId=6501234"}
+        ]   
+    },
+    {
+        "id" : "nvidia-geforce-rtx-5090",
+        "name" : "NVIDIA GeForce RTX 5090 24GB",
+        "category" : "GPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 1499.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 1599.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 1699.99, "url" : "https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-24gb/6501234.p?skuId=6501234"}
+        ]
+    },
+    {
+        "id" : "amd-ryzen-9-7950x",
+        "name" : "AMD Ryzen 9 7950X 16-Core Processor",
+        "category" : "CPU",
+        "offers" : [
+            {"store" : "Amazon", "price" : 699.99, "url" : "https://www.amazon.com/dp/B0B3Y5Z9FQ"},
+            {"store" : "Newegg", "price" : 749.99, "url" : "https://www.newegg.com/p/N82E16820236792"},
+            {"store" : "Best Buy", "price" : 799.99, "url" : "https://www.bestbuy.com/site/amd-ryzen-9-7950x-16-core-processor/6501234.p?skuId=6501234"}
         ]
     }
 ]
