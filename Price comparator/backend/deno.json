@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "start": "deno run --env-file=.env --allow-net --allow-read --allow-write=data --allow-env server.ts",
+    "collect": "deno run --env-file=.env --allow-net --allow-read --allow-write=data --allow-env collect.ts",
+    "test": "deno test --allow-read --allow-write --allow-env tests/",
+    "check": "deno check server.ts collect.ts",
+    "lint": "deno lint",
+    "format": "deno fmt",
+    "format:check": "deno fmt --check"
+  },
+  "nodeModulesDir": "manual",
+  "compilerOptions": {
+    "lib": [
+      "deno.window",
+      "dom",
+      "dom.iterable"
+    ]
+  }
+}

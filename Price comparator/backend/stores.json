@@ -1,0 +1,32 @@
+[
+  {
+    "id": "centralgamer",
+    "name": "Central Gamer",
+    "contactUrl": "https://centralgamer.cl/contacto/",
+    "timeZone": "America/Santiago"
+  },
+  {
+    "id": "winpy",
+    "name": "Winpy",
+    "contactUrl": "https://www.winpy.cl/contacto/",
+    "timeZone": "America/Santiago"
+  },
+  {
+    "id": "tectec",
+    "name": "TecTec",
+    "contactUrl": "https://tectec.cl/contacto/",
+    "timeZone": "America/Santiago"
+  },
+  {
+    "id": "myshop",
+    "name": "MyShop",
+    "contactUrl": "https://myshop.cl/sucursales",
+    "timeZone": "America/Santiago"
+  },
+  {
+    "id": "bcpstech",
+    "name": "BCPS Tech",
+    "contactUrl": "https://bcpstech.cl/contact/",
+    "timeZone": "America/Santiago"
+  }
+]
